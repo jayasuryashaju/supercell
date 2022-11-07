@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Source+Sans+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+.head{
+   display: flex;
+   
+   
+}
+.headbg{
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 80%;
+    height: 80px;
+    margin: 0 10%;
+    background-color: black;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    color: white
+
+}
+
+.list a{
+    text-decoration: none;
+    color: #808080;
+    font-weight: 600;
+    margin-left: 40px;
+}
+.images li{
+    margin: 25px 20px;
+    width: 25px;
+    
+}
+.images{
+    margin-right: -400px;
+}
+.list{
+    
+    margin: 25px 20px;
+    margin-left: 100px;
+    
+}
+/*------------------------------------------- 2 image section start ----------------------------------------------------------------- */
+.cover{
+    display: flex;
+    width: 84%;
+    margin-left: 8%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.cover .coverimage img{
+    width: 90%;
+    
+   
+}
+.cover a{
+    
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+.cover h5{
+    margin-top: 50px;
+    font-weight: 600;
+    color: magenta;
+}
+/*------------------------------------------- 2 image section end ----------------------------------------------------------------- */
+
+.button1{
+    
+    border-radius: 8px;
+    border-style: none;
+    margin-left: 45%;
+    padding: 18px 34px;
+    color: white;
+    background-color: blue;
+    margin-bottom: 50px;
+}
+.covertwo{
+    display: flex;
+    background-image: url("images/bg_wmg_brawlstars.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+   
+}
+.covertwotext{
+    padding-left: 74px;
+    margin-top: 250px;
+    margin-left: 80px;
+    line-height: 30px;
+    color: white;
+   
+}
+.covertwotext h1{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+.covertwotext p{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+    
+
+.imagerobo img{
+    margin-top: 37px; 
+    margin-right:290px;
+    margin-left: 290px;
+    width: 395px;
+    height: 504px;
+    
+}
+.covertwo button{
+    padding: 15px 30px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+/*================================================================================================== three */
+.coverthree{
+    display: flex;
+    background-image: url(images/bg_fp_nextstep.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    height: 600px;
+}
+.coverthreetext{
+    margin-left: 60%;
+    margin-top: 15%;
+    text-align: left;
+    color: white;
+    line-height: 30px;
+    
+}
+.coverthree button{
+    padding: 15px 30px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.coverthreetext h1{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+.coverthreetext p{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+/* ====================================================================forth */
+.forth{
+    margin-top: 50px;
+    display: flex;
+    font-family: sans-serif;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    
+}
+.forthone img{
+    
+    width: 578px;
+    height:322px;
+    margin-left: 7px;
+    padding-right: 52px;
+
+}
+.forthone h3{
+    text-align: center;
+    margin-left: 70px;
+    padding-right: 100px;
+}
+.forthone p{
+    text-align: justify;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-left: 70px;
+    padding-right: 100px;
+    line-height: 30px;
+}
+.forthone a{
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    color: blue;
+
+
+}
+/*=========================================================================== footer============================= */
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 80%;
+    height: 500px;
+
+    background-color: black;
+    color: white;
+    padding: 0 10%;
+}
+
+
+.footernavone{
+ display: flex;
+ justify-content: space-between;
+
+}
+.footernavoneleft ul li{
+    display:inline-block;
+    list-style: none;
+    
+}
+.footernavoneleft ul li img{
+    width: 30px;
+    height: 22px;
+    padding: 10px 10px;
+
+}
+.footernavoneright ul li{
+    display:inline-block;
+    list-style: none;
+    
+}
+.footernavoneright ul li img{
+    padding: 10px 0;
+    width: 166px;
+    height: 50px;
+
+}
+.footer p{
+    padding: 30px 0;
+}
+.footertwo ul li{
+    font-family: sans-serif;
+    display:inline-block;
+    list-style: none;
+    padding: 30px 10px;
+    font-size: 12px;
+}
+.footerfinal{
+    display: flex;
+    justify-content: space-between;
+}
+.footerfinal img{
+    width: 54px;
+    height: 46px;
+}
+/* ===============================================logo================================== */
+.logo{
+    position: fixed;
+    margin: 15px 20px;
+    width: 54px;
+    height: 46px;
+}
+.logo2{
+    
+    margin: 27px 24px;
+    width: 25px;
+    height: 25px;
+}
